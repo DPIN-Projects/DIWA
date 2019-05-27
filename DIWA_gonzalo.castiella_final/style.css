@@ -1,7 +1,107 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #232330;
+	color: #000000;
 }
 
-/* HEADER */
+#main_header .Logo{
+	position: absolute;
+	z-index: 1;
+	padding: 20px;
+}
+
+/* Top */
+#main_header .Top{
+	left: 10;
+	top: 0;
+	height: 85px;
+	width: 100%;
+	background-color: #0a1747;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #FFFFFF
+}
+
+#main_header .Top .WebTitle{
+	font-size: 48px;
+	padding-left: 260px;
+}
+
+#main_header .Top ul {
+	display: flex;
+}
+
+#main_header .Top ul a{
+	font-family: 'OpenSansBold';
+	font-size: 24px;
+	padding: 10px;
+	display: inline-block;
+	margin-left: 20px;
+	color:#FFFFFF
+}
+
+/* Options */
+#main_header .Options
+{
+	height: 136px;
+	width: 100%;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#main_header .Options ul {
+	display: flex;
+	padding-left: 260px;
+}
+
+#main_header .Options ul a{
+	font-family: 'OpenSansBold';
+	font-size: 24px;
+	padding-right: 30px;
+	display: inline-block;
+	justify-content: flex-start;
+	color: #0a1747
+}
+
+/* Main */
+.Background{
+	position: absolute;
+	z-index: -1;
+}
+
+/* Popular */
+.Popular{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+/*.Popular ul{
+	padding-left: 260px;
+}
+
+.Popular li{
+	display: flex;
+	padding: 0px;
+	position: relative;
+	text-align: left;
+	color: #FFFFFF;
+	align-items: flex-end;
+}
+
+.Popular li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.Popular ul p
+{
+	position: absolute;
+	z-index: 1;
+	padding: 10px;
+}*/
